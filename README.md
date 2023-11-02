@@ -1,5 +1,7 @@
 # docusaurus-asyncapi
 
+[![npm version](https://badge.fury.io/js/docusaurus-asyncapi.svg)](https://badge.fury.io/js/docusaurus-asyncapi)
+
 Async API for Docusaurus V2.
 
 ## Installation
@@ -22,7 +24,7 @@ const config = {
           {
             spec: "path/to/asyncapi.yml",
             route: "/asyncapi",
-          }
+          },
         ],
         // See defaults for ConfigInterface at:
         // https://github.com/asyncapi/asyncapi-react/blob/42a349ad/library/src/config/default.ts#L7
