@@ -1,6 +1,6 @@
-import { LoadContext } from '@docusaurus/types'
-import type { PluginOptions } from 'docusaurus-plugin-asyncapi';
-import { ConfigInterface } from '@asyncapi/react-component'
+import { LoadContext } from "@docusaurus/types"
+import type { PluginOptions } from "docusaurus-plugin-asyncapi";
+import { ConfigInterface } from "@asyncapi/react-component"
 
 export interface PresetOptions {
   id?: string;
@@ -17,7 +17,7 @@ export default function preset(
 ) {
   const { debug = false, specs, config } = presetOpts;
 
-  const id = presetOpts.id ? `-${presetOpts.id}` : '';
+  const id = presetOpts.id ? `-${presetOpts.id}` : "";
   const themeId = `theme-asyncapi${id}`;
 
   let specsArray: PluginOptions[] = [];
@@ -37,8 +37,8 @@ export default function preset(
       ],
     ],
     plugins: [
-      ...specsArray.map((opts, index) => (
-        [
+      ...specsArray.map((opts, index) =>
+        ([
           require.resolve("docusaurus-plugin-asyncapi"),
           {
             ...opts,
@@ -47,8 +47,8 @@ export default function preset(
             debug,
             config,
           },
-        ]
-      )),
+        ]),
+      ),
     ],
   };
 }

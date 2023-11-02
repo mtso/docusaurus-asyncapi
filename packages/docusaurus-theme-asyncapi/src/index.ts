@@ -1,13 +1,13 @@
-import path from 'path';
+import path from "path";
 
-export default function theme(context, options) {
+export default function theme(_context, _options) {
   return {
-    name: 'docusaurus-theme-asyncapi',
+    name: "docusaurus-theme-asyncapi",
     getThemePath() {
-      return path.join(__dirname, '..', 'dist-jsx', 'theme');
+      return path.join(__dirname, "..", "dist-jsx", "theme");
     },
     getTypeScriptThemePath() {
-      return path.join(__dirname, '..', 'src', 'theme');
+      return path.join(__dirname, "..", "src", "theme");
     },
   };
 }

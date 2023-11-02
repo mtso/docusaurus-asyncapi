@@ -10,37 +10,47 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Installation
 
 ```
-$ yarn
+$ yarn install docusaurus-asyncapi
+```
+
+### Usage
+
+```js
+// docusaurus.config.js
+
+const config = {
+  presets: [
+    [
+      "docusaurus-asyncapi",
+      {
+        specs: [
+          {
+            spec: "path/to/asyncapi.yml",
+            route: "/asyncapi",
+          }
+        ],
+        // See defaults for ConfigInterface at:
+        // https://github.com/asyncapi/asyncapi-react/blob/42a349ad/library/src/config/default.ts#L7
+        config: {
+          show: {
+            sidebar: true,
+          },
+        },
+      },
+    ],
+    ...
+  ],
+  ...
+}
+
+module.exports = config;
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ yarn workspaces run build && yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This builds the packages and starts the local docusaurus server.
+TODO: Watch and build source files.
