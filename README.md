@@ -1,19 +1,14 @@
-# Website
+# docusaurus-asyncapi
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Async API for Docusaurus V2.
 
-## Requirements
-
-- yarn v1.22.19
-- node v16
-
-### Installation
+## Installation
 
 ```
 $ yarn install docusaurus-asyncapi
 ```
 
-### Usage
+## Usage
 
 ```js
 // docusaurus.config.js
@@ -45,6 +40,11 @@ const config = {
 
 module.exports = config;
 ```
+
+### Development Requirements
+
+- yarn v1.22.19
+- node v16
 
 ### Local Development
 
