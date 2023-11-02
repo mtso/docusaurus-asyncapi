@@ -1,0 +1,38 @@
+{
+  "name": "docusaurus-theme-asyncapi",
+  "version": "0.0.1",
+  "description": "AsyncAPI Theme for DocusaurusV2",
+  "main": "./dist/index.js",
+  "files": [
+    "src",
+    "dist",
+    "dist-jsx"
+  ],
+  "browser": {
+    "fs": false,
+    "path": false,
+    "util": false,
+    "buffer": false
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.jsx.json && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtso/docusaurus-asyncapi.git"
+  },
+  "author": "Matthew Tso <~@mtso.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "@asyncapi/react-component": "1.0.0-next.48",
+    "@docusaurus/theme-common": "^2.4.3",
+    "react-json-view": "^1.21.3",
+    "styled-components": "^6.1.0"
+  }
+}

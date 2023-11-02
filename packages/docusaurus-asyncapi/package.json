@@ -1,0 +1,26 @@
+{
+  "name": "docusaurus-asyncapi",
+  "version": "0.0.1",
+  "description": "AsyncAPI for DocusaurusV2",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtso/docusaurus-asyncapi.git"
+  },
+  "author": "Matthew Tso <~@mtso.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "docusaurus-plugin-asyncapi": "0.0.1",
+    "docusaurus-theme-asyncapi": "0.0.1"
+  }
+}

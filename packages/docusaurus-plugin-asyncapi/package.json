@@ -1,0 +1,30 @@
+{
+  "name": "docusaurus-plugin-asyncapi",
+  "version": "0.0.1",
+  "description": "AyncAPI Plugin for DocusaurusV2",
+  "main": "./dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtso/docusaurus-asyncapi.git"
+  },
+  "author": "Matthew Tso <~@mtso.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^11.1.0",
+    "@asyncapi/parser": "^2.1.1",
+    "yaml": "^2.3.3"
+  },
+  "peerDependencies": {
+    "@asyncapi/react-component": "1.0.0-next.48"
+  }
+}

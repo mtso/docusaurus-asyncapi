@@ -1,0 +1,15 @@
+components:
+  schemas:
+    TsukkomiEventPayload:
+      # description: A tsukkomi
+      type: object
+      properties: 
+        id:
+          description: Unique tsukkomi ID
+          type: string
+        content:
+          type: string
+        x:
+          type: number
+        y:
+          type: number
