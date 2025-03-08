@@ -45,7 +45,7 @@ module.exports = config;
 
 ### Development Requirements
 
-- node v16
+- node v18 or higher
 
 ### Local Development
 
