@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/docusaurus-asyncapi.svg)](https://badge.fury.io/js/docusaurus-asyncapi)
 
-Async API for Docusaurus V2.
+Async API Documentation for Docusaurus V3.
 
 ## Installation
 
@@ -45,14 +45,14 @@ module.exports = config;
 
 ### Development Requirements
 
-- yarn v1.22.19
 - node v16
 
 ### Local Development
 
 ```
-$ yarn workspaces run build && yarn start
+$ npm run build --workspaces
+$ cd example
+$ npm start
 ```
 
 This builds the packages and starts the local docusaurus server.
-TODO: Watch and build source files.
