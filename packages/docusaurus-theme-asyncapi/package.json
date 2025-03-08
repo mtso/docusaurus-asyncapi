@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-theme-asyncapi",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "AsyncAPI Theme for DocusaurusV2",
   "main": "./dist/index.js",
   "files": [

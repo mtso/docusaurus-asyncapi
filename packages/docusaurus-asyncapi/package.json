@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-asyncapi",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "AsyncAPI for DocusaurusV2",
   "main": "dist/index.js",
   "files": [
@@ -20,7 +20,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "docusaurus-plugin-asyncapi": "0.0.3",
-    "docusaurus-theme-asyncapi": "0.0.3"
+    "docusaurus-plugin-asyncapi": "1.0.0",
+    "docusaurus-theme-asyncapi": "1.0.0"
   }
 }

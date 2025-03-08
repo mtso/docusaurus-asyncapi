@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-plugin-asyncapi",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "AyncAPI Plugin for DocusaurusV2",
   "main": "./dist/index.js",
   "files": [
