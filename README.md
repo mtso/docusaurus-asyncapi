@@ -7,7 +7,7 @@ Async API Documentation for Docusaurus V3.
 ## Installation
 
 ```
-$ yarn install docusaurus-asyncapi
+$ npm install docusaurus-asyncapi
 ```
 
 ## Usage
