@@ -7,7 +7,7 @@ Async API Documentation for Docusaurus V3.
 ## Installation
 
 ```
-$ npm install docusaurus-asyncapi
+npm install docusaurus-asyncapi
 ```
 
 ## Usage
@@ -50,9 +50,9 @@ module.exports = config;
 ### Local Development
 
 ```
-$ npm run build --workspaces
-$ cd example
-$ npm start
+npm run build --workspaces
+cd example
+npm start
 ```
 
 This builds the packages and starts the local docusaurus server.
