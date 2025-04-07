@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-theme-asyncapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AsyncAPI Theme for DocusaurusV2",
   "main": "./dist/index.js",
   "files": [
@@ -31,7 +31,7 @@
     "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@asyncapi/react-component": "2.5.0",
+    "@asyncapi/react-component": "2.5.1",
     "@docusaurus/theme-common": "^3.5.0",
     "styled-components": "^6.1.0"
   }

@@ -4,6 +4,8 @@
 
 Async API Documentation for Docusaurus V3.
 
+![docusaurus-asyncapi example screenshot](./example/static/img/docusaurus-asyncapi-example-screenshot-0.png)
+
 ## Installation
 
 ```
@@ -43,13 +45,16 @@ const config = {
 module.exports = config;
 ```
 
-### Development Requirements
+## Local Development
 
-- node v18 or higher
+### Requirements
 
-### Local Development
+- node >=v18
+
+### Building Example
 
 ```
+npm install --workspaces
 npm run build --workspaces
 cd example
 npm start

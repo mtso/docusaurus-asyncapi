@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-asyncapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AsyncAPI for DocusaurusV2",
   "main": "dist/index.js",
   "files": [
@@ -8,7 +8,8 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "cp ../../README.md README.md"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   },
   "dependencies": {
     "docusaurus-plugin-asyncapi": "1.0.0",
-    "docusaurus-theme-asyncapi": "1.0.0"
+    "docusaurus-theme-asyncapi": "1.0.1"
   }
 }
