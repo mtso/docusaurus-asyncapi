@@ -1,5 +1,11 @@
 # docusaurus-theme-asyncapi
 
+## 1.0.2
+
+### Patch Changes
+
+- Bump asyncapi/react-component to 2.6.3
+
 ## 1.0.1
 
 ### Patch Changes

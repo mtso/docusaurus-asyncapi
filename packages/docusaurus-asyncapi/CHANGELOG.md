@@ -1,5 +1,12 @@
 # docusaurus-asyncapi
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - docusaurus-theme-asyncapi@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
