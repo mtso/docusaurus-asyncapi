@@ -6,7 +6,7 @@
 
 - Upgrade the bundled AsyncAPI plugin and theme to 2.0.0 for the updated Docusaurus and React stack.
 
-  The example now uses `@docusaurus/core` and `@docusaurus/preset-classic` 3.9.0 with React and React DOM 19.1.1. For this stack, upgrade to Node.js 20 or newer. The renderer dependency is now `@asyncapi/react-component` 3.1.7, and the theme supports React 18.2 or newer within the React 18 release line, or React 19.
+  The example now uses `@docusaurus/core` and `@docusaurus/preset-classic` 3.10.2 with React and React DOM 19.1.1. For this stack, upgrade to Node.js 20 or newer. The renderer dependency is now `@asyncapi/react-component` 3.1.7, and the theme supports React 18.2 or newer within the React 18 release line, or React 19.
 
 ### Patch Changes
 

@@ -4,9 +4,9 @@
 
 ### Major Changes
 
-- Upgrade `@asyncapi/react-component` from 2.6.3 to 3.1.7 for React 19 compatibility and align `@docusaurus/theme-common` with Docusaurus 3.9.0.
+- Upgrade `@asyncapi/react-component` from 2.6.3 to 3.1.7 for React 19 compatibility and align `@docusaurus/theme-common` with Docusaurus 3.10.2.
 
-  Docusaurus 3.9.0 requires Node.js 20 or newer. The theme now requires React and React DOM 18.2 or newer within the React 18 release line, or React 19. Upgrade both React packages together; the example uses React and React DOM 19.1.1.
+  Docusaurus 3.10.2 requires Node.js 20 or newer. The theme now requires React and React DOM 18.2 or newer within the React 18 release line, or React 19. Upgrade both React packages together; the example uses React and React DOM 19.1.1.
 
 ## 1.0.2
 
