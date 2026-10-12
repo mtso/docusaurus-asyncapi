@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-plugin-asyncapi",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "AyncAPI Plugin for DocusaurusV2",
   "main": "./dist/index.js",
   "files": [
@@ -26,6 +26,6 @@
     "yaml": "^2.7.0"
   },
   "peerDependencies": {
-    "@asyncapi/react-component": "2.5.0"
+    "@asyncapi/react-component": "3.1.7"
   }
 }

@@ -1,10 +1,12 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
+  // Shared compiler settings for the workspace packages.
+  "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
     "module": "Node16",
     "moduleResolution": "Node16",
+    "types": ["node", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
     "baseUrl": ".",
-    "noEmit": false
-  }
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "example", "**/dist", "**/dist-jsx"]
 }
