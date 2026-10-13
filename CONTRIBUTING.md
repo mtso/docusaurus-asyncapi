@@ -5,13 +5,13 @@
 ### Adding changes to a pending version
 
 ```
-npx @changsets/cli add
+npx @changesets/cli add
 ```
 
 ### Creating a new version
 
 ```
-npx @changsets/cli version
+npx @changesets/cli version
 ```
 
 Review the CHANGELOG.md files for accuracy.
@@ -19,7 +19,7 @@ Review the CHANGELOG.md files for accuracy.
 ### Publishing the version
 
 ```
-npx @changsets/cli publish
+npx @changesets/cli publish
 ```
 
 ## Git commits

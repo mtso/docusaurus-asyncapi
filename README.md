@@ -49,12 +49,12 @@ module.exports = config;
 
 ### Requirements
 
-- node >=v18
+- node >=v20
 
 ### Building Example
 
 ```
-npm install --workspaces
+npm ci
 npm run build --workspaces
 cd example
 npm start

@@ -1,5 +1,11 @@
 # docusaurus-plugin-asyncapi
 
+## 2.0.0
+
+### Major Changes
+
+- Upgrade the required `@asyncapi/react-component` peer from 2.5.0 to 3.1.7 for React 19 compatibility. Consumers must update their renderer dependency to 3.1.7, matching the AsyncAPI theme.
+
 ## 1.0.0
 
 ### Major Changes
