@@ -64,6 +64,10 @@ also remain, and `npm audit` can still exit nonzero after applying the overrides
 The worker pool and asset serializer run in Node during the build; they are not
 part of the static site's browser runtime.
 
+See the [security policy](https://github.com/mtso/docusaurus-asyncapi/blob/main/SECURITY.md)
+for supported versions, private vulnerability reporting, and the full dependency
+audit record.
+
 ## Usage
 
 ```js
