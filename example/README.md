@@ -25,20 +25,18 @@ This command starts a local development server and opens up a browser window. Mo
 $ npm run build --workspace example
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command generates static content into `example/build`. Build the packages first with `npm run build --workspaces` from the repository root when starting from a fresh checkout.
+
+Preview the production build at `http://localhost:3000/docusaurus-asyncapi/`:
+
+```
+$ npm run serve --workspace example
+```
 
 ### Deployment
 
-Using SSH:
+The example is hosted at [https://mtso.github.io/docusaurus-asyncapi/](https://mtso.github.io/docusaurus-asyncapi/).
 
-```
-$ USE_SSH=true npm run deploy --workspace example
-```
+The [Pages workflow](../.github/workflows/pages.yml) installs dependencies from the root lockfile and builds all workspaces in order, including the example. Pull requests to `main` validate the build; pushes to `main` also deploy `example/build` to GitHub Pages. The workflow can also be run manually on `main` from the Actions tab.
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> npm run deploy --workspace example
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The repository's **Settings → Pages → Build and deployment → Source** must be set to **GitHub Actions**. Deployment uses the workflow's `GITHUB_TOKEN`; no personal access token or deploy key is needed.

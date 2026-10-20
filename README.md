@@ -4,6 +4,8 @@
 
 Async API Documentation for Docusaurus V3.
 
+[Live example](https://mtso.github.io/docusaurus-asyncapi/) · [AsyncAPI reference](https://mtso.github.io/docusaurus-asyncapi/api/)
+
 ![docusaurus-asyncapi example screenshot](./example/static/img/docusaurus-asyncapi-example-screenshot-0.png)
 
 ## Installation
