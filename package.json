@@ -20,6 +20,10 @@
     "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/plugin-content-docs": "3.10.2"
   },
+  "overrides": {
+    "tinypool": "^2.1.2",
+    "serialize-javascript": "^7.0.5"
+  },
   "engines": {
     "node": ">=20.0"
   }
