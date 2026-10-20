@@ -1,5 +1,13 @@
 # docusaurus-asyncapi
 
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies [7c6c9ae]
+  - docusaurus-plugin-asyncapi@2.0.1
+  - docusaurus-theme-asyncapi@2.0.1
+
 ## 2.0.0
 
 ### Major Changes

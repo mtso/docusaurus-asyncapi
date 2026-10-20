@@ -1,5 +1,11 @@
 # docusaurus-plugin-asyncapi
 
+## 2.0.1
+
+### Patch Changes
+
+- 7c6c9ae: Remove the plugin's unused direct AsyncAPI parser dependency and the theme's unused styled-components dependency, avoiding unnecessary dependency trees and allowing the renderer to resolve its own compatible parser version.
+
 ## 2.0.0
 
 ### Major Changes
